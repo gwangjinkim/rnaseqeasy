@@ -1,0 +1,44 @@
+Package: rnaseqeasy
+Title: RNAseq standard analysis
+Version: 0.0.2
+Authors@R: 
+    person(given = "Gwang-Jin",
+           family = "Kim",
+           role = c("aut", "cre"),
+           email = "gwang.jin.kim.phd@gmail.com",
+           comment = c(ORCID = "https://orcid.org/0000-0002-2753-0883"))
+Description: Basic analysis of RNAseq (DESeq2 normalization and DE analysis, GO Enrichment, Pathway enrichment, MDS plot, volcano plot, MD plot, heatmap).
+License: use_mit_license()
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports:
+    DESeq2,
+    edgeR,
+    biomaRt,
+    org.Mm.eg.db,
+    org.Hs.eg.db,
+    GO.db,
+    GOstats,
+    gage,
+    gageData,
+    KEGG.db,
+    annotate,
+    genefilter,
+    vsn,
+    ggplot2,
+    Glimma,
+    SummarizedExperiment,
+    reshape,
+    gplots,
+    RColorBrewer,
+    pheatmap,
+    mgskb,
+    clusterProfiler,
+    GenomicFeatures,
+    openxlsx,
+    xlsx2dfs,
+    plotly,
+    DEFormats
+    
